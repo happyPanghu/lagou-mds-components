@@ -21,10 +21,13 @@
     "babel-loader": "^6.4.1",
     "classnames": "^2.2.6",
     "css-loader": "^0.21.0",
+    "less": "^2.7.2",
     "less-loader": "^4.0.3",
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.2",
     "react": "^15.4.2",
+    "react-dom": "^15.6.2",
+    "reactcss": "^1.2.3",
     "style-loader": "^0.13.0"
   }
 }
