@@ -18,6 +18,7 @@
   "homepage": "https://github.com/happyPanghu/lagou-mds-components#readme",
   "dependencies": {},
   "devDependencies": {
+    "babel-loader": "^6.4.1",
     "classnames": "^2.2.6",
     "css-loader": "^0.21.0",
     "less-loader": "^4.0.3",
