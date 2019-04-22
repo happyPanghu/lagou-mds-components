@@ -112,6 +112,7 @@
     "readline-sync": "^1.4.9",
     "rollup": "^0.58.2",
     "style-loader": "^0.13.0",
+    "test": "^0.6.0",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "url-loader": "^0.5.9",
     "velocityjs": "^1.1.3",
