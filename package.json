@@ -1,6 +1,6 @@
 {
   "name": "lagou-mds-react-components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "简招组件库",
   "main": "src/index.js",
   "scripts": {
