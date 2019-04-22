@@ -16,10 +16,10 @@
     "url": "https://github.com/happyPanghu/lagou-mds-components/issues"
   },
   "homepage": "https://github.com/happyPanghu/lagou-mds-components#readme",
-  "dependencies": {
-    "react": "^16.8.6"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "object-assign": "^4.1.1",
+    "react": "^15.4.2"
   }
 }
