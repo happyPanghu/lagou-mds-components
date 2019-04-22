@@ -1,0 +1,25 @@
+{
+  "name": "lagou-mds-react-components",
+  "version": "1.0.0",
+  "description": "简招组件库",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyPanghu/lagou-mds-components.git"
+  },
+  "author": "lisen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happyPanghu/lagou-mds-components/issues"
+  },
+  "homepage": "https://github.com/happyPanghu/lagou-mds-components#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "classnames": "^2.2.6"
+  }
+}

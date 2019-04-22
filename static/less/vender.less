@@ -1,0 +1,72 @@
+
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+.transition(@transition) {
+  -webkit-transition: @transition;
+       -o-transition: @transition;
+          transition: @transition;
+}
+
+
+.caret-up (@width,@border-color:#d3d3d3) {
+  width: 0;
+  height: 0;
+  border-width: 0 @width @width;
+  border-style: solid dashed;
+  border-color:  transparent transparent @border-color transparent;
+}
+.caret-right (@width,@border-color:#d3d3d3) {
+  width: 0;
+  height: 0;
+  border-width: @width 0 @width @width;
+  border-style: solid dashed;
+  border-color: transparent transparent transparent @border-color;
+}
+.caret-down (@width,@border-color:#d3d3d3) {
+  width: 0;
+  height: 0;
+  border-width: @width @width 0;
+  border-style: solid dashed;
+  border-color: @border-color transparent transparent transparent;
+}
+.caret-left (@width,@border-color:#d3d3d3) {
+  width: 0;
+  height: 0;
+  border-width: @width  @width @width 0;
+  border-style: solid dashed;
+  border-color: transparent @border-color transparent transparent ;
+}
+
+//动画帧
+.keyframes(@name; @arguments) {
+  @-moz-keyframes @name { @arguments(); }
+  @-webkit-keyframes @name { @arguments(); }
+  @keyframes @name { @arguments(); }
+}
+
+//单行文字截断,注意，用此类元素为block或inline-block
+.text-overflow() {
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+//多行文字截断
+
+.line-clamp(@lines, @line-height: 1.3em) {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: @lines; // 截断行数
+  overflow: hidden;
+  line-height: @line-height;
+  max-height: @line-height * @lines;
+}
+
+.easeInOut(@parmas){
+    -webkit-transition: @parmas 600ms cubic-bezier(0.86, 0, 0.07, 1);
+      transition:         @parmas 600ms cubic-bezier(0.86, 0, 0.07, 1);
+}
