@@ -2,7 +2,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import PureRenderMixin from 'react/lib/ReactComponentWithPureRenderMixin';
-import Checkbox from '../Checkbox';
 
 export default class Radio extends React.Component {
     static defaultProps = {
