@@ -2,7 +2,7 @@
   "name": "lagou-mds-react-components",
   "version": "1.0.4",
   "description": "简招组件库",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
